@@ -1,29 +1,3 @@
-# what are you looking for?
-# 1. channel
-#  "title"
-# description
-# viewCount
-# subscriberCount
-# videoCount
-#2. video
-# what video would you like? (give keyword)
-    # return search result
-    # get video id from first search result
-    # return information about video
-    # tags
-#     channel title
-# description
-# default audio langiage
-# viewCount
-# likeCount
-# commentCount
-
-# -*- coding: utf-8 -*-
-
-# Sample Python code for youtube.videos.list
-# See instructions for running these code samples locally:
-# https://developers.google.com/explorer-help/code-samples#python
-
 import os
 
 import google_auth_oauthlib.flow
@@ -33,8 +7,6 @@ import goo
 scopes = ["https://www.googleapis.com/auth/youtube.readonly"]
 
 def get_info():
-    # Disable OAuthlib's HTTPS verification when running locally.
-    # *DO NOT* leave this option enabled in production.
     os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
 
     api_service_name = "youtube"
