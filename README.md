@@ -1,5 +1,5 @@
 # Youtube-API-Implementation
-YouTube API Implementation for a Software Development COurse
+YouTube API Implementation for a Software Development Course
 
 # Instruction for using
 
